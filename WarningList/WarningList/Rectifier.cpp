@@ -1,16 +1,32 @@
-/*===========================================================================
-* File        : Rectifier.cpp
-* Description : ...
-* Author      : Felix Lu
-* Date        : 2018.12.1
-===========================================================================*/
+/**
+* @file       Rectifier.cpp
+* @brief      整流器
+* @details    /
+* @author     Felix Lu
+* @date       2018.11.13
+* @version    /
+* @par Copyright (c):
+*             2016-2019 XXX All rights reserved.
+*/
 #include "Rectifier.h"
 
+/**
+* @brief   Init()
+* @details 整流器相关变量初始化
+* @param   /
+* @return  /
+*/
 void CRectifier::Init(void)
 {
 	FaultFlag = 0;
 }
 
+/**
+* @brief   CheckFault()
+* @details 故障检测
+* @param   /
+* @return  /
+*/
 void CRectifier::CheckFault(void)
 {
     FaultFlag = SET_FAULT(FaultFlag, MAINS_ABNORMAL);
@@ -35,6 +51,4 @@ void CRectifier::CheckFault(void)
     //FaultManager.CurrentWarningList.Init();
 }
 
-//===========================================================================
-// End of File
-//===========================================================================
+/// End of File

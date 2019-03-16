@@ -1,17 +1,24 @@
-/*===========================================================================
-* File        : MainApplication.cpp
-* Description : 主程序
-* Author      : Felix Lu
-* Date        : 2018.11.27
-===========================================================================*/
+/**
+* @file       MainApplication.cpp
+* @brief      主程序
+* @details    /
+* @author     Felix Lu
+* @date       2018.11.27
+* @version    /
+* @par Copyright (c):
+*             2016-2019 XXX All rights reserved.
+*/
 #include "MainApplication.h"
 
 CRectifier Rec;
 CFaultManagement FaultManager;
-/*---------------------------------------------------------------------------
-函数名称: main()
-功能描述: 
----------------------------------------------------------------------------*/
+
+/**
+* @brief   main()
+* @details App主函数
+* @param   /
+* @return  /
+*/
 void main(void)
 {
     FaultManager.Init();
@@ -20,6 +27,4 @@ void main(void)
 
 }
 
-//===========================================================================
-// End of File
-//===========================================================================
+/// End of File

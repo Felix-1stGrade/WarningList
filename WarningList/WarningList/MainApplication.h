@@ -1,9 +1,13 @@
-/*===========================================================================
-* File        : MainApplication.h
-* Description : 主程序头文件
-* Author      : Felix
-* Date        : 2018.11.13
-===========================================================================*/
+/**
+* @file       MainApplication.h
+* @brief      主程序头文件
+* @details    /
+* @author     Felix Lu
+* @date       2018.11.13
+* @version    /
+* @par Copyright (c):
+*             2016-2019 XXX All rights reserved.
+*/
 #ifndef MAINAPPLICATION_H
 #define MAINAPPLICATION_H
 
@@ -15,6 +19,5 @@
 extern CFaultManagement FaultManager;
 
 #endif
-//===========================================================================
-// End of File
-//===========================================================================
+
+/// End of File

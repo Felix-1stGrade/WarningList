@@ -1,9 +1,13 @@
-/*===========================================================================
-* File        : FaultManagement.h
-* Description : ...
-* Author      : Felix Lu
-* Date        : 2018.11.27
-===========================================================================*/
+/**
+* @file       FaultManagement.h
+* @brief      π‹¿Ìπ ’œ
+* @details    /
+* @author     Felix Lu
+* @date       2018.11.27
+* @version    /
+* @par Copyright (c):
+*             2016-2019 XXX All rights reserved.
+*/
 #ifndef FAULTMANAGEMENT_H
 #define FAULTMANAGEMENT_H
 
@@ -41,6 +45,5 @@ public:
 }; 
 
 #endif
-//===========================================================================
-// End of File
-//===========================================================================
+
+/// End of File
